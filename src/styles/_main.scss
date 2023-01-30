@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=IBM+Plex+Mono&family=Julius+Sans+One&family=Manrope:wght@300;600&family=Rubik+Mono+One&family=Ubuntu&family=Zen+Dots&display=swap");
+
+// font-family: 'Allerta Stencil', sans-serif;
+// font-family: 'IBM Plex Mono', monospace;
+// font-family: 'Julius Sans One', sans-serif;
+// font-family: 'Manrope', sans-serif;
+// font-family: 'Rubik Mono One', sans-serif;
+// font-family: 'Ubuntu', sans-serif;
+// font-family: 'Zen Dots', cursive;
+
+* {
+  margin: 0%;
+  padding: 0%;
+  outline: none;
+  border: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #d3ae36,
+    #a98b28,
+    #82691b,
+    #5c4a0e,
+    #392c00
+  );
+  background-position: center;
+  background-size: cover;
+}

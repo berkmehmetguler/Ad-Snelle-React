@@ -1,0 +1,54 @@
+section {
+  // background: url(../images/hero.jpg) no-repeat center center/cover;
+  justify-content: space-between;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem;
+  .hero-content {
+    width: fit-content;
+    display: flex;
+    .hero-banner {
+      padding: 10px 0;
+      height: 70vh;
+      width: 50%;
+    }
+    .hero-text {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        font-size: 3rem;
+        font-family: "Zen Dots", cursive;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 1.5rem;
+        font-family: "Manrope", sans-serif;
+        margin-bottom: 1rem;
+      }
+      .hero-btn {
+        padding: 0.5rem 1rem;
+        background-color: #000;
+        color: #d3ae36;
+        font-size: 1.5rem;
+        font-family: "Manrope", sans-serif;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          border: 1px solid #d3ae36;
+          background-color: #2323;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
